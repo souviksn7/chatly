@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://chatly-nu.vercel.app/login",
+    origin: "https://chatly-nu.vercel.app",
     credentials: true,
   },
 });
